@@ -1,0 +1,32 @@
+{
+    "name": "home_web",
+    "version": "1.0.0",
+    "description": "Un cliente resource server asegurado con OAuth2",
+    "main": "gulpfile.js",
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^2.18.2",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-header": "^1.8.8",
+        "gulp-htmlmin": "^3.0.0",
+        "gulp-jshint": "^2.0.4",
+        "gulp-rename": "^1.2.2",
+        "gulp-uglify": "^2.0.0",
+        "jshint": "^2.9.4",
+        "jshint-stylish": "^2.2.1"
+    },
+    "xDependencies": {
+        "gulp-connect": "^2.3.1",
+        "gulp-imagemin": "^3.1.1"
+    },
+    "scripts": {
+        "start": "serve"
+    },
+    "keywords": [
+        "scripts js"
+    ],
+    "author": "practian",
+    "license": "ISC"
+}
